@@ -30,3 +30,9 @@ terraform.tfvars
 
 # Logs
 *.log
+
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+.terraform.lock.hcl
