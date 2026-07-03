@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS IaC Project</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Infrastructure as Code on AWS</h1>
+
+<p>This application is deployed using:</p>
+
+<ul>
+<li>Terraform</li>
+<li>AWS EC2</li>
+<li>Ansible</li>
+<li>Docker</li>
+</ul>
+
+<hr>
+
+<h2>Server Information</h2>
+
+<p><strong>Hostname:</strong> {{ hostname }}</p>
+
+<p><strong>Operating System:</strong> {{ system }}</p>
+
+<p><strong>Python Version:</strong> {{ python }}</p>
+
+<p><strong>Current Time:</strong> {{ time }}</p>
+
+</div>
+
+</body>
+</html>
