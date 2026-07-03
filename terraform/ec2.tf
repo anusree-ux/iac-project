@@ -1,6 +1,6 @@
 resource "aws_instance" "web" {
 
-  ami           = "ami-00cc80a408efefcc0"
+  ami           = "ami-001e7cc215773c7fb"
   instance_type = var.instance_type
 
   subnet_id = aws_subnet.public.id

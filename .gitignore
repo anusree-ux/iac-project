@@ -36,3 +36,5 @@ terraform.tfvars
 *.tfstate.*
 terraform.tfvars
 .terraform.lock.hcl
+*.pem
+
