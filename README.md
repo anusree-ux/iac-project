@@ -16,8 +16,7 @@ This project demonstrates how to provision and manage AWS infrastructure using *
 ## Project Structure
 
 ```text
-iac-aws-project/
-│
+iac-project/
 ├── app/
 │   ├── app.py
 │   ├── Dockerfile
@@ -25,13 +24,8 @@ iac-aws-project/
 │   ├── templates/
 │   ├── static/
 │   └── test_app.py
-│
 ├── terraform/
-│
 ├── ansible/
-│
-├── screenshots/
-│
 ├── .gitignore
 └── README.md
 ```
