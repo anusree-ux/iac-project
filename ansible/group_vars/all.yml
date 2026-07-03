@@ -1,1 +1,5 @@
-docker_package: docker
+app_name: flask-iac-app
+
+container_name: flask-app
+
+app_directory: /home/ubuntu/app
